@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    database: oracle
+    show-sql: true
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.88.12:1521:DBTEST
+    username: eljack
+    password: E1jack02032046
